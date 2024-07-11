@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -54,102 +55,115 @@ p {
 body {
   width: 100%;
 }
+
 #header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    background: black;
-    box-shadow: 8px 10px rgba(red, green, blue, alpha);
-    height: 60px;
-    z-index: 999;
-    position: sticky;
-    top: 0;
-    left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: black;
+  box-shadow: 8px 10px rgba(red, green, blue, alpha);
+  height: 60px;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
+
 #navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .nav-search {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: bisque;
-    width:550px;
-    height: 40px;
-    border-radius: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: bisque;
+  width: 550px;
+  height: 40px;
+  border-radius: 100px;
 
 }
+
 .kkjha3 {
-    background-color: rgb(160, 160, 247);
-    width: 60px;
-    text-align: center;
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
+  background-color: rgb(160, 160, 247);
+  width: 60px;
+  text-align: center;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
-.kkjha4{
-    width: 100%;
-    font-size: 1rem;
-    border: none;
+
+.kkjha4 {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
 }
+
 .search-icon {
-    width: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    background-color: rgb(160, 160, 247);
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    color: rgb(255, 255, 255);
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: rgb(160, 160, 247);
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  color: rgb(255, 255, 255);
 }
+
 .nav-search:hover {
-    border: 3px solid orange;
+  border: 3px solid orange;
 }
+
 #navbar li {
-    list-style: none;
-    padding: 0px 20px;
-    position: relative;
+  list-style: none;
+  padding: 0px 20px;
+  position: relative;
 }
+
 #navbar li a {
-    text-decoration: none;
-    font-size: 0.96rem;
-    font-weight: 600;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(163, 255, 255);
-    transition: 0.3s ease;
+  text-decoration: none;
+  font-size: 0.96rem;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(163, 255, 255);
+  transition: 0.3s ease;
 
 
 }
+
 #navbar li a:hover,
 #navbar li a.active {
-    color: darkorange;
+  color: darkorange;
 }
+
 #navbar li a.active::after,
 #navbar li a:hover::after {
-    content: "";
-    width: 30%;
-    height: 2px;
-    background: darkorange;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: darkorange;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
 }
+
 #navbar-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 40px;
-    background-color: rgb(6, 5, 27);
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  background-color: rgb(6, 5, 27);
+
 }
+
 #navbar-info li {
   list-style: none;
   padding: 0px 20px;
   position: relative;
 }
+
 #navbar-info li a {
   text-decoration: none;
   font-size: 0.96rem;
@@ -160,56 +174,63 @@ body {
 
 
 }
+
 #navbar-info li a:hover,
 #navbar-info li a.active {
-    color: darkorange;
+  color: darkorange;
 }
+
 #navbar-info li a.active::after,
 #navbar-info li a:hover::after {
-    content: "";
-    width: 30%;
-    height: 2px;
-    background: darkorange;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: darkorange;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
 }
 
 
 #hero {
-    background-image: url("graphicimg.png");
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+  background-image: url("graphicimg.png");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
+
 #hero button:hover {
   background: rgb(42, 83, 14);
   color: whitesmoke;
 }
+
 #hero h4 {
-    padding-bottom: 30px;
-    color: navajowhite;
-    font-size: 2rem;
-    font-weight: 600;
+  padding-bottom: 30px;
+  color: navajowhite;
+  font-size: 2rem;
+  font-weight: 600;
 }
+
 #hero h1 {
-    padding-bottom: 30px;
-    color: navajowhite;
-    font-weight: 600;
-    font-size: 3rem;
+  padding-bottom: 30px;
+  color: navajowhite;
+  font-weight: 600;
+  font-size: 3rem;
 }
+
 #hero h2 {
   padding-bottom: 10px;
   color: rgb(255, 136, 0);
   font-weight: 600;
   font-size: 3.5rem;
 }
+
 #hero p {
   color: navajowhite;
   font-size: 1.5rem;
@@ -221,8 +242,9 @@ body {
   background-color: rgb(255, 0, 0);
   font-size: 2rem;
   font-weight: 600;
-  
+
 }
+
 #store {
   background-color: rgb(6, 5, 27);
   display: flex;
@@ -230,6 +252,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 #store .fe-box {
   width: 300px;
   text-align: center;
@@ -241,7 +264,7 @@ body {
   cursor: pointer;
   box-shadow: 20px 20px 34px rgba(204, 192, 58, 0.283);
   margin: 15px 0;
-  transition: 0.1s ease-in-out ;
+  transition: 0.1s ease-in-out;
 
 }
 
@@ -249,10 +272,12 @@ body {
 #store .fe-box:hover {
   box-shadow: 20px 20px 34px #f7de566e;
 }
+
 #product1 {
   text-align: center;
   background-color: rgb(6, 5, 27);
 }
+
 #product1 .pro-container {
   display: flex;
   justify-content: space-between;
@@ -269,44 +294,53 @@ body {
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(204, 192, 58, 0.283);
   margin: 15px 0;
-  transition: 0.1s ease-in-out ;
+  transition: 0.1s ease-in-out;
 }
+
 #product1 .pro:hover {
   box-shadow: 20px 20px 30px #f7de566e;
 }
+
 #product1 .pro img {
   width: 100%;
   border-radius: 20px;
 }
+
 #product1 .pro .description {
   text-align: start;
 }
+
 #product1 .pro .description span {
   color: bisque;
   font-size: 1rem;
   font-weight: 300;
 }
+
 #hero1 {
-  background-image: url("Black\ and\ White\ Simple\ Art\ Director\ LinkedIn\ Banner.png") ;
+  background-image: url("Black\ and\ White\ Simple\ Art\ Director\ LinkedIn\ Banner.png");
   padding: 0 80px;
-  
+
 }
+
 #hero1 button:hover {
   background: rgb(42, 83, 14);
   color: whitesmoke;
 }
+
 #hero1 h4 {
-    
-    color: navajowhite;
-    font-size: 1rem;
-    font-weight: 600;
+
+  color: navajowhite;
+  font-size: 1rem;
+  font-weight: 600;
 }
+
 #hero1 h1 {
-    
-    color: navajowhite;
-    font-weight: 600;
-    font-size: 2rem;
+
+  color: navajowhite;
+  font-weight: 600;
+  font-size: 2rem;
 }
+
 #hero1 h2 {
   color: rgb(255, 136, 0);
   font-weight: 600;
@@ -321,8 +355,9 @@ body {
   font-weight: 600;
   margin-bottom: 60px;
 
-  
+
 }
+
 #signin {
   display: flex;
   align-items: center;
@@ -331,11 +366,13 @@ body {
   background-color: rgb(7, 5, 44);
   height: 90px;
 }
+
 #signin .signintext h4 {
   color: bisque;
   margin-top: 1rem;
   margin-left: 0.6rem;
 }
+
 #signin .signintext p {
   color: azure;
   margin-bottom: 1.95rem;
@@ -347,90 +384,105 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 footer .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
 }
+
 footer h4 {
   color: darkgoldenrod;
 
 }
+
 footer p {
   color: bisque;
-  
+
 }
+
 footer a {
   color: bisque;
   text-decoration: none;
   cursor: pointer;
   margin: 1rem;
 }
+
 footer .icon {
   color: azure;
   font-size: 2rem;
   cursor: pointer;
 }
+
 #next-page {
   text-align: center;
   background-color: rgb(6, 5, 27);
 }
+
 #next-page a {
   text-decoration: none;
   background-color: rgb(30, 96, 15);
   color: azure;
   font-size: 1rem;
   padding: 15px 20px;
-  border-radius: 0.6rem ;
+  border-radius: 0.6rem;
   font-weight: 600;
 
-  
+
 
 }
-#productdetail{
+
+#productdetail {
   background-color: rgb(6, 5, 27);
   display: flex;
-  
-  
 
-  
-  
+
+
+
+
 }
+
 #productdetail .single-img {
   width: 40%;
   margin-right: 50px;
-  
- 
+
+
 
 }
+
 .small-img-group {
   display: flex;
   justify-content: space-between;
   margin: 2%;
 
-  
-  
-  
+
+
+
 }
+
 .small-img-col {
   flex-basis: 32%;
   cursor: pointer;
 }
+
 #productdetail .single-img-detail {
   width: 50%;
   padding-top: 30px;
-  
+
 }
+
 #productdetail .single-img-detail h4 {
   padding: 40px 0 20px 0;
 
 }
+
 #productdetail .single-img-detail select {
   display: block;
   padding: 5px 10px;
   margin-bottom: 10px;
 }
+
 #productdetail .single-img-detail input {
   width: 50px;
   height: 47px;
@@ -440,14 +492,20 @@ footer .icon {
 
 
 }
-#productdetail .single-img-detail button{
+
+#productdetail .single-img-detail button {
   background: rgb(67, 93, 15);
   color: azure;
   display: block;
   padding: 5px 10px;
-  
-  
+
+
 }
+
+#productdetail .single-img-detail button:hover {
+  background: #955200;
+}
+
 #account {
   background-color: rgb(6, 5, 27);
   margin: 0;
@@ -457,20 +515,23 @@ footer .icon {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+
 
 }
+
 #container {
-  background-color: rgb(55, 164, 153);
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/379/319/774/macro-moss-grass-plants-wallpaper-preview.jpg");
   border-radius: 30px;
-  box-shadow: 0 10px 20px rgb(252, 174, 72);
+  box-shadow: 0 10px 20px rgb(255, 145, 0);
   position: relative;
   overflow: hidden;
   width: 800px;
   height: 680px;
   max-width: 100%;
   min-height: 500px;
+  margin-top: 4rem;
 }
+
 #container p {
   font-size: 14px;
   line-height: 20px;
@@ -478,9 +539,11 @@ footer .icon {
   margin: 20px 0;
   color: rgb(0, 0, 0);
 }
+
 #container span {
   font-size: 12px;
 }
+
 #container a {
   color: #222;
   font-size: 13px;
@@ -488,8 +551,9 @@ footer .icon {
   margin: 15px 0 10px;
 
 }
+
 #container button {
-  background-color: rgb(23, 81, 0);
+  background-color: rgb(99, 9, 9);
   color: bisque;
   font-size: 16px;
   padding: 10px 45px;
@@ -499,9 +563,14 @@ footer .icon {
   text-transform: uppercase;
   margin-top: 10px;
   cursor: pointer;
-  
+
 
 }
+
+#container button:hover {
+  background: rgb(40, 97, 6);
+}
+
 
 #container form {
   display: flex;
@@ -509,9 +578,10 @@ footer .icon {
   justify-content: center;
   flex-direction: column;
 
-  
+
 
 }
+
 #container input {
   background-color: aliceblue;
   border: none;
@@ -521,7 +591,45 @@ footer .icon {
   border-radius: 2rem;
   width: 70%;
   outline: none;
-  
+
+}
+
+#trackaccount {
+  background-color: rgb(6, 5, 27);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#trackaccount a {
+  color: rgb(3, 3, 2);
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 20px 0 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgb(244, 130, 0);
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/379/319/774/macro-moss-grass-plants-wallpaper-preview.jpg");
+  font-weight: 500;
+  color: bisque;
+
+
+
+}
+
+#trackaccount h1 {
+  color: rgb(255, 166, 0);
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 15px;
 }
 
 
