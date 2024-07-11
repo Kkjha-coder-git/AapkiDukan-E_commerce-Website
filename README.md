@@ -94,6 +94,8 @@ Installing The Project In Your Local Machine
 
 Fonts used
 
+All the product images taken directly from google. 
+some of the image like logo, graphic, and video created by me. 
 Font Awesome for icons.
 Google Fonts for fonts.
 Pixabay for the images.
