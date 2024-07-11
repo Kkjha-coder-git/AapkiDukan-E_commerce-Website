@@ -4,30 +4,40 @@ Introduction
 This project is a e-commerce store that provides an online platform for a individual person to sell their products online. My name is  Kundan Kumar and I developed this site as My summer Project. The website is built using HTML, CSS and JavaScript. 
 
 Project Goal
+
 The goal of this project is to help the local person reach a wider audience and make their work more accessible to customers. With this platform, customers can easily browse and purchase the individual person's products, and the person can manage their sales and inventory through a simple and user-friendly interface.
 
 Table of Content
+
 Use the sticky-menu above to easily navigate the readme file.
 readme navigation
 Project Business Model
 This is a B2C Business to Customer e-commerce business model for selling  someone products and with a Stripe payment gateway that provides a seamless shopping experience for customers while enabling the business to efficiently manage its operations and grow its customer base.
 
-Product Offering: The e-commerce application will offer a range of daily usage products to its customers. These products will be showcased on the website with high-quality images and detailed descriptions.
+Product Offering: 
+The e-commerce application will offer a range of daily usage products to its customers. These products will be showcased on the website with high-quality images and detailed descriptions.
 
-Customer Acquisition: The e-commerce application will use various marketing channels such as social media, email marketing, search engine optimization to attract potential customers to the website.
+Customer Acquisition: 
+The e-commerce application will use various marketing channels such as social media, email marketing, search engine optimization to attract potential customers to the website.
 
-Ordering Process: Customers will be able to browse the product catalog, select the items they want to purchase, and add them to their cart. The ordering process will be easy to navigate and user-friendly. Once the customer is ready to checkout, they will be asked to provide their shipping information and payment details.
+Ordering Process: 
+Customers will be able to browse the product catalog, select the items they want to purchase, and add them to their cart. The ordering process will be easy to navigate and user-friendly. Once the customer is ready to checkout, they will be asked to provide their shipping information and payment details.
 
-Payment Gateway: The e-commerce application will integrate with Stripe, a popular payment gateway that securely handles the payment process. Customers will be able to pay using various payment methods such as credit/debit cards, digital wallets, and bank transfers.
+Payment Gateway: 
+The e-commerce application will integrate with Stripe, a popular payment gateway that securely handles the payment process. Customers will be able to pay using various payment methods such as credit/debit cards, digital wallets, and bank transfers.
 
-Order Fulfillment: Once the payment has been processed, the e-commerce application will notify the customer that their order has been received and is being prepared for shipment. The application will then handle the order fulfillment process, which includes packaging the product, generating a shipping label, and sending it to the carrier for delivery.
+Order Fulfillment: 
+Once the payment has been processed, the e-commerce application will notify the customer that their order has been received and is being prepared for shipment. The application will then handle the order fulfillment process, which includes packaging the product, generating a shipping label, and sending it to the carrier for delivery.
 
-Customer Support: The e-commerce application will provide excellent customer support to ensure a positive shopping experience. Customers will be able to reach out to the support team via email for any inquiries or issues they may have with their order.
+Customer Support: 
+The e-commerce application will provide excellent customer support to ensure a positive shopping experience. Customers will be able to reach out to the support team via email for any inquiries or issues they may have with their order.
 
-Feedback and Reviews: After receiving their order, customers will be encouraged to leave feedback and reviews on the e-commerce application's website. This feedback will help the business improve its products and services and attract new customers.
+Feedback and Reviews: 
+After receiving their order, customers will be encouraged to leave feedback and reviews on the e-commerce application's website. This feedback will help the business improve its products and services and attract new customers.
 
 Note:
 Features
+
 Navigation Bar
 The navigation bar is featured across all pages.
 Collapsed Navbar
