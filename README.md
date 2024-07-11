@@ -1,6 +1,7 @@
  Project Name :- E-commerce Website (AapkiDukan) Development
 
-Introduction
+Introduction :
+
 This project is a e-commerce store that provides an online platform for a individual person to sell their products online. My name is  Kundan Kumar and I developed this site as My summer Project. The website is built using HTML, CSS and JavaScript. 
 
 Project Goal
