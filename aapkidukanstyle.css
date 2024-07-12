@@ -553,7 +553,7 @@ footer .icon {
 }
 
 #container button {
-  background-color: rgb(99, 9, 9);
+  background-color: rgb(150, 6, 6);
   color: bisque;
   font-size: 16px;
   padding: 10px 45px;
@@ -568,7 +568,7 @@ footer .icon {
 }
 
 #container button:hover {
-  background: rgb(40, 97, 6);
+  background: rgb(50, 126, 5);
 }
 
 
