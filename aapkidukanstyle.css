@@ -868,6 +868,73 @@ footer .icon {
 #subtotal button:hover {
   background: rgb(50, 123, 7);
 }
+#payment {
+  background-color: rgb(6, 5, 27);
+}
+#payment .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#payment .container form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+#payment .container form .row .col {
+  flex: 1 1 250px;
+}
+#payment .container form .row .col .title {
+  font-size: 20px;
+  color: greenyellow;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+#payment .container form .row .col .inputbox {
+  margin: 15px 0;
+  width: 100%;
+}
+#payment .container form .row .col .inputbox span {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 200;
+}
+#payment .container form .row .col .inputbox input {
+ width: 100%;
+ border: 1px solid white;
+ padding: 10px 15px;
+ font-size: 15px;
+ text-transform: none;
+ border-radius: 3rem;
+ margin-bottom: 1rem;
+}
+#payment .container form .row .col .inputbox .option {
+  width: 100%;
+ border: 1px solid white;
+ padding: 10px 15px;
+ font-size: 15px;
+ text-transform: none;
+ border-radius: 3rem;
+ margin-bottom: 1rem;
+}
+#payment .container form button {
+  background-color:rgb(11, 11, 125);
+  color: bisque;
+  font-size: 16px;
+  padding: 10px 45px;
+  border-radius: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 13rem;
+}
+#payment .container form button:hover {
+  background:  rgb(37, 215, 1);
+}
 
 
 
