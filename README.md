@@ -8,6 +8,8 @@ Let's See my Website To Open My Website first open visual studio code Tab and th
 
 http://127.0.0.1:5500/AapkiDukanProject/aapkidukan.html
 
+Two Video are also available on the Website please click on them and it will run. 
+
 Project Goal
 
 The goal of this project is to help the local person reach a wider audience and make their work more accessible to customers. With this platform, customers can easily browse and purchase the individual person's products, and the person can manage their sales and inventory through a simple and user-friendly interface.
