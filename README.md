@@ -69,12 +69,8 @@ Order Confirmation Email
 Account
 My Profile Page
 Blog 
-Blog Article List
-Blog Article
-Blog Article Comment
 Search Functionality
 Payment Gateway
-Stripe Webhook
 WishList Functionality
 Product Wishlist
 Rate and Review Functionality
