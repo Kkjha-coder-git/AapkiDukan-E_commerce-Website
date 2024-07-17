@@ -31,7 +31,7 @@ Ordering Process:
 Customers will be able to browse the product catalog, select the items they want to purchase, and add them to their cart. The ordering process will be easy to navigate and user-friendly. Once the customer is ready to checkout, they will be asked to provide their shipping information and payment details.
 
 Payment Gateway: 
-The e-commerce application will integrate with Stripe, a popular payment gateway that securely handles the payment process. Customers will be able to pay using various payment methods such as credit/debit cards, digital wallets, and bank transfers.
+The e-commerce application will integrate a popular payment gateway that securely handles the payment process. Customers will be able to pay using various payment methods such as credit/debit cards,UPI,Net banking digital wallets, and bank transfers.
 
 Order Fulfillment: 
 Once the payment has been processed, the e-commerce application will notify the customer that their order has been received and is being prepared for shipment. The application will then handle the order fulfillment process, which includes packaging the product, generating a shipping label, and sending it to the carrier for delivery.
@@ -66,17 +66,15 @@ Checkout App
 Checkout Page
 Checkout Confirmation Page
 Order Confirmation Email
-Profiles App
+Account
 My Profile Page
-Blog App
+Blog 
 Blog Article List
 Blog Article
 Blog Article Comment
 Search Functionality
-Stripe Payment Getaway
+Payment Gateway
 Stripe Webhook
-Stripe Events
-Stripe Endpoint
 WishList Functionality
 Product Wishlist
 Rate and Review Functionality
