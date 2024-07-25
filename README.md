@@ -2,7 +2,9 @@
 
 Introduction :
 
-This project is a e-commerce store that provides an online platform for a individual person to sell their products online. My name is  Kundan Kumar and I developed this site as My summer Project. The website is built using HTML, CSS and JavaScript. 
+This project is a e-commerce store that provides an online platform for a individual person to sell their products online.
+
+So Hello Everyone My name is  Kundan Kumar and I developed this site as My summer Project. The website is built using HTML, CSS and JavaScript. 
 
 Let's See my Website To Open My Website first open visual studio code Tab and then click on the given link below it will show you(Remember never close the Visual Studio Code Tab otherwise you can not access my given link it will not open and you will be unable to see my website):-
 
