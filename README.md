@@ -8,7 +8,7 @@ So Hello Everyone My name is  Kundan Kumar and I developed this site as My summe
 
 Let's See my Website To Open My Website first open visual studio code Tab and then click on the given link below it will show you(Remember never close the Visual Studio Code Tab otherwise you can not access my given link it will not open and you will be unable to see my website):-
 
-http://127.0.0.1:5500/AapkiDukanProject/aapkidukan.html
+file:///C:/Users/DELL/AapkiDukan%20Project/AapkiDukanProject/aapkidukan.html
 
 Two Video are also available on the Website please click on them and it will run. 
 
